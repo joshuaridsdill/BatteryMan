@@ -22,6 +22,7 @@ class BATTERYMAN_API IPickable
 
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
+	//Called when Item is collected
 	UFUNCTION(BlueprintImplementableEvent)
 	void Collected();
 };
